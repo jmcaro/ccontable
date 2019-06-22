@@ -1,0 +1,31 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'Pivot'
+description: 'A Drupal 8 Multi-Purpose Theme, created by Symphony Themes.'
+package: 'Bootstrap'
+
+regions:
+  user_left: 'User left'
+  user_right: 'User right'
+  branding: 'Site branding'
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Header'
+  title: 'Title'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'  
+  postscript_first: 'Postscript First'
+  postscript_second: 'Postscript Second'
+  postscript_third: 'Postscript Third'
+  postscript_fouth: 'Postscript Fouth'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries:
+  - 'pivot/global-styling'

@@ -1,0 +1,368 @@
+/*------------------------------------------------------------------------
+# Pivot Drupal
+# ------------------------------------------------------------------------
+# Created by Symphony Themes
+# Websites:  http://www.symphonythemes.com -  Email: info@symphonythemes.com
+--------------------------------------------------------------------------
+    1.   Custom CSS
+    2.   Forms
+    3.   Blog & Article
+    4.   Others
+--------------------------------------------------------------------------------*/
+
+/* 01. Custom CSS
+ --------------------------------------------------------------------------------*/
+body { position: unset; }
+@media screen and (min-width: 768px) {
+  body { margin-top: 0; }
+}
+
+.text-white a {
+  color: #fff !important;
+}
+
+.menu li span.dropdown__trigger {
+  font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #777777;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  transition: all .5s ease;
+  padding-bottom: 40px;
+  display: inline-block;
+  line-height: 14px;
+}
+.menu li span.dropdown__trigger:hover {
+  color: #333333;
+}
+.overlay-bar .menu li span.dropdown__trigger {
+  color: #fff;
+}
+.overlay-bar .menu li span.dropdown__trigger:hover {
+  color: #fff;
+}
+.top-bar.nav-sticky .menu li span.dropdown__trigger {
+  padding-bottom: 32px;
+}
+.overlay-bar.nav-sticky .menu li span.dropdown__trigger {
+  color: #777777;
+}
+.offscreen-container .menu li span.dropdown__trigger {
+  padding-bottom: 0px !important;
+  color: #aaa !important;
+}
+.offscreen-container .menu li span.dropdown__trigger:hover {
+  color: #fff !important;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .top-bar .menu li span.dropdown__trigger {
+    color: #777777;
+    padding-bottom: 0px;
+  }
+  .overlay-bar .menu li span.dropdown__trigger:hover {
+    color: #333333;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .overlay-bar .menu li span.dropdown__trigger {
+    color: #777777;
+    padding-bottom: 0px;
+  }
+  .overlay-bar .menu li span.dropdown__trigger:hover {
+    color: #333333;
+  }
+}
+.simple-bar .menu li span.dropdown__trigger {
+  padding-bottom: 54px;
+}
+@media all and (max-width: 767px) {
+  .simple-bar .menu li span.dropdown__trigger {
+    padding-bottom: 0px;
+  }
+}
+.centered-logo .menu li span.dropdown__trigger {
+  padding-bottom: 24px;
+}
+@media all and (max-width: 767px) {
+  .centered-logo .menu li span.dropdown__trigger {
+    padding-bottom: 0px;
+  }
+}
+.fullscreen-nav-container .menu li span.dropdown__trigger {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 300;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  padding-bottom: 0px;
+}
+@media all and (max-width: 767px) {
+  .fullscreen-nav-container .menu li span.dropdown__trigger {
+    font-size: 24px;
+    padding-bottom: 0px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  #block-pivot-main-menu {
+    float: left;
+  }
+  #block-blocksocialicons {
+    float: right;
+  }
+}
+
+/*--------------------------------------------------------------------------------*/
+
+/* 02. Forms
+
+/*--------------------------------------------------------------------------------*/
+button#edit-preview {
+  display: none;
+}
+
+/* Contact form */
+#contact-message-feedback-form {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  margin-bottom: 24px;
+}
+#contact-message-feedback-form .form-item,
+#contact-message-feedback-form .form-wrapper {
+  margin: 0;
+}
+#contact-message-feedback-form .form-item {
+  padding: 16px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+#contact-message-feedback-form .form-item input,
+#contact-message-feedback-form .form-item textarea {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  border: medium none;
+  box-shadow: none;
+  width: 100%;
+}
+#contact-message-feedback-form button#edit-submit {
+  margin: 20px;
+}
+.block-contact-wide {
+  margin-bottom: 200px;
+}
+.block-contact-wide #contact-message-feedback-form { 
+  border: none;
+}
+.block-contact-wide #contact-message-feedback-form .form-item {
+  border: none;
+}
+.block-contact-wide #contact-message-feedback-form .form-item input,
+.block-contact-wide #contact-message-feedback-form .form-item textarea {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 14px 24px 14px 24px;
+  margin-bottom: 0;
+}
+
+.block-contact-wide #contact-message-feedback-form button#edit-submit {
+  color: #fff !important;
+  font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #e74c3c;
+  border-color: #e74c3c;
+  border-radius: 50px;
+  padding:14px 24px;
+}
+
+
+/* Simplenews */
+#block-simplenewssubscription .field--name-mail label {
+  display: none;
+}
+.photo-form-wrapper.no-margin {
+  margin: 0;
+}
+.photo-form-wrapper button[type="submit"] {
+  color: #fff !important;
+  font-family: "Raleway","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.photo-form-wrapper.no-margin input {
+  margin: 0;
+}
+.photo-form-wrapper button#edit-subscribe {
+  background-color: #feb41c;
+  border-color: #feb41c;
+}
+.photo-form-wrapper.subscribe-inline .field--name-mail,
+.photo-form-wrapper.subscribe-inline #edit-actions {
+  display: inline-block;
+}
+#edit-subscriptions-wrapper {
+  display: none;
+}
+#block-simplenewssubscription #edit-mail-wrapper input {
+  border: 1px solid #fff;
+  background: rbga(255,255,255,0.2);
+  color: #fff;
+  box-shadow: none;
+  height: auto;
+}
+#block-simplenewssubscription #edit-actions button {
+  background: none;
+  border: 2px solid #feb41c;
+  color: #fff;
+  padding: 14px 24px;
+  border-radius: 50px;
+  background-color: #feb41c;
+}
+
+@media all and (min-width: 768px) {
+  #block-simplenewssubscription #edit-mail-wrapper {
+    width: 70%;
+	float: left;
+  }
+  #block-simplenewssubscription #edit-actions {
+    width: 30%;
+	float: right;
+  }
+  body.user-logged-in #block-simplenewssubscription #edit-actions {
+    width: 100%;
+	float: right;
+  }
+}
+
+/* Login/register page */
+body.path-user .main-container {
+  background: url(../img/hero6.jpg) center center no-repeat;
+  background-size: cover !important;
+  min-height: 100vh;
+  padding-top: 196px;
+}
+body.path-user nav.tabs {
+  margin-bottom: 30px;
+}
+body.path-user .region-content form input,
+.user-login-form input,
+.user-register-form input,
+.user-pass input {
+  border: none;
+  box-shadow: none;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 50px;
+  padding: 14px 24px 14px 24px;
+  width: 100%;
+  margin-bottom: 30px;
+  height: auto;
+}
+body.path-user .region-content form button,
+.user-login-form button,
+.user-register-form button,
+.user-pass button {
+  color: #fff !important;
+  font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #e74c3c;
+  border-color: #e74c3c;
+  border-radius: 50px;
+  padding:14px 24px;
+}
+body.path-user .region-content form #edit-actions {
+  text-align: center;  
+}
+@media all and (min-width: 768px) {
+  body.path-user .region-content {
+    width: 50%;
+    margin: 0 25%;
+  }
+}
+#block-userlogin ul { display: none; }
+
+/*--------------------------------------------------------------------------------*/
+
+/* 03. Blog & Article
+
+/*--------------------------------------------------------------------------------*/
+
+/* Article detail */
+.article__title h1 {
+  margin-bottom: 16px;
+  font-size: 40px;
+}
+.blog-image-holder {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.blog-image-holder img {
+  display: inline;
+  width: 100%;
+}
+.field--name-field-tags .field--item {
+  display: inline;
+  padding-left: 7px;
+}
+.field--name-field-blog-category {
+  display: inline;
+}
+.field--name-field-tags {
+  margin-top: 20px;
+}
+.article-body ul.links {
+  float: right;
+  margin-top: 20px;
+}
+
+/* Article Comment */
+article .comments h2 {
+  margin-bottom: 30px;
+}
+article .comments .indented {
+  overflow: hidden;
+}
+.indented {
+  margin-left: 50px;
+}
+.comment-content {
+  background: #fff;
+  padding: 20px;
+}
+article.comment {
+  margin: 15px 0;
+}
+
+/*--------------------------------------------------------------------------------*/
+
+/* 04. Other
+
+/*--------------------------------------------------------------------------------*/
+
+/* Search results */
+body.path-search .region-content ol li {
+  margin-bottom: 30px;
+}
+body.path-search h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/* Nav Tab */
+.user-logged-in nav.tabs {
+    opacity: 0.5;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transition: all 0.5s ease 0.25s;
+    z-index: 1000;
+}

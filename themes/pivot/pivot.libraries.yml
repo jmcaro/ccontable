@@ -1,0 +1,68 @@
+global-styling:
+  version: 8.0
+  css:
+    base:
+      css/elegant-icons.min.css: {}
+      css/flexslider.min.css: {}
+      css/lightbox.min.css: {}
+      css/line-icons.min.css: {}
+      css/theme.css: {}
+      css/custom.css: {}
+      css/local.css: {}
+  js:
+    js/jquery.plugin.min.js: {}
+    js/isotope.min.js: {}
+    js/jquery.countdown.min.js: {}
+    js/jquery.flexslider-min.js: {}
+    js/lightbox.min.js: {}
+    js/modernizr-2.6.2-respond-1.1.0.min.js: {}
+    js/smooth-scroll.min.js: {}
+    js/scrollReveal.min.js: {}
+    js/skrollr.min.js: {}
+    js/spectragram.min.js: {}
+    js/twitterFetcher_v10_min.js: {}
+    js/scripts.js: {}
+ckeditor_js:
+  version: 8.0
+  js:
+    js/ckeditor.config.js
+aqua-styling:
+  version: 8.0
+  css:
+    base:
+      css/theme-aqua.css: {}
+cedar-styling:
+  version: 8.0
+  css:
+    base:
+      css/theme-cedar.css: {}
+charcoal-styling:
+  version: 8.0
+  css:
+    base:
+      css/theme-charcoal.css: {}
+greensea-styling:
+  version: 8.0
+  css:
+    base:
+      css/theme-greensea.css: {}
+red-styling:
+  version: 8.0
+  css:
+    base:
+      css/theme-red.css: {}
+serpent-styling:
+  version: 8.0
+  css:
+    base:
+      css/theme-serpent.css: {}
+tangerine-styling:
+  version: 8.0
+  css:
+    base:
+      css/theme-tangerine.css: {}
+yeller-styling:
+  version: 8.0
+  css:
+    base:
+      css/theme-yeller.css: {}
