@@ -5,7 +5,21 @@
     "license": "GPL-2.0-or-later",
     "require": {
         "composer/installers": "^1.0.24",
-        "wikimedia/composer-merge-plugin": "^1.4"
+        "wikimedia/composer-merge-plugin": "^1.4",
+        "drush/drush": "^9.7",
+        "drupal/imce": "^1.7",
+        "drupal/admin_toolbar": "^1.27",
+        "drupal/ctools": "^3.2",
+        "drupal/entity_reference_revisions": "^1.6",
+        "drupal/metatag": "^1.8",
+        "drupal/token": "^1.5",
+        "drupal/paragraphs": "^1.8",
+        "drupal/pathauto": "^1.4",
+        "drupal/entity_browser": "^2.1",
+        "drupal/simplenews": "^1.0@beta",
+        "drupal/video_embed_field": "^2.1",
+        "drupal/viewsreference": "^1.4",
+        "drupal/bootstrap": "^3.20"
     },
     "replace": {
         "drupal/core": "^8.7"
@@ -34,9 +48,9 @@
         },
         "installer-paths": {
             "core": ["type:drupal-core"],
-            "modules/contrib/{$name}": ["type:drupal-module"],
-            "profiles/contrib/{$name}": ["type:drupal-profile"],
-            "themes/contrib/{$name}": ["type:drupal-theme"],
+            "modules/{$name}": ["type:drupal-module"],
+            "profiles/{$name}": ["type:drupal-profile"],
+            "themes/{$name}": ["type:drupal-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"],
             "modules/custom/{$name}": ["type:drupal-custom-module"],
             "themes/custom/{$name}": ["type:drupal-custom-theme"]
